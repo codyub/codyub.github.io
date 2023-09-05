@@ -14,4 +14,4 @@ title: "first post"
 
    
 
-![ocean-1845110_1280](C:\Users\Yubin\Documents\GitHub\codyub.github.io\images\2023-09-04-first_post\ocean-1845110_1280.jpg)
+![ocean-1845110_1280](..\images\2023-09-04-first_post\ocean-1845110_1280.jpg)
