@@ -14,6 +14,10 @@ title: "first post"
 
  - 으로 하니까 됨
 
+ - 
+
+ - 로컬 실시간 변경 확인! 왕! 된당!
+
    
 
 ![ocean-1845110_1280](..\images\2023-09-04-first_post\ocean-1845110_1280.jpg)
