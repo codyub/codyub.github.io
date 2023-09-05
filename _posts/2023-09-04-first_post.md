@@ -10,6 +10,8 @@ title: "first post"
 
  - 이미지도 넣어봐야지! # 안들어감; 깨진다.
 
+ - n차 시도 대실패
+
    
 
-![ocean-1845110_1280](C:\Users\Yubin\Documents\GitHub\codyub.github.io\images\2023-09-04-first_post\ocean-1845110_1280-1693884610318-1.jpg)
+![ocean-1845110_1280](C:\Users\Yubin\Documents\GitHub\codyub.github.io\images\2023-09-04-first_post\ocean-1845110_1280.jpg)
