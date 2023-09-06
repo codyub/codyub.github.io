@@ -108,7 +108,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hello! I'm Yubin-Jeong"
   location         : "South Koera"
-  email            : "codyub42528@gmail.com"
+  # email            : "codyub42528@gmail.com" # 이 부분이 한글로 이메일이라고 써져있음
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -202,7 +202,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
