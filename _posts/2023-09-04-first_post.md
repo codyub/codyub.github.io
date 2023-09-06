@@ -2,7 +2,7 @@
 layout: single
 title: "first post"
 categories: Introduction
-tag: python
+tag: [python, jekyll]
 ---
 
 # 새로운 포스팅
