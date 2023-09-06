@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "first post"
+categories: About Me
 ---
 
 # 새로운 포스팅
