@@ -4,6 +4,9 @@ title: "first post"
 categories: Introduction
 tag: [python, jekyll]
 toc: true
+author_profile: false
+sidebar:
+    nav: "docs"
 ---
 
 # '배우는 중'
