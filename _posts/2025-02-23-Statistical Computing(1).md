@@ -15,5 +15,4 @@ sidebar:
 - Topics in Bayesian Statistics
 - Causal Inference
 - Statistical Computing
----
 
