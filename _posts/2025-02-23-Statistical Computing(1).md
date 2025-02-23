@@ -1,7 +1,6 @@
-
 ---
 layout: single
-title: 2025-spring semester lecture
+title: "2025-spring semester lecture"
 categories: Introduction
 tag: [lecture, 2025-spring]
 toc: true
