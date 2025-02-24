@@ -259,6 +259,12 @@ compress_html:
     envs: development
 
 
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+
+
 # Defaults
 defaults:
   # _posts
