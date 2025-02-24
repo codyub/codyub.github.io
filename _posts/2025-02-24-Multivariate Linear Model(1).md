@@ -13,5 +13,6 @@ sidebar:
 Multivariate Linear Model
 ===
 
-$Y \in \mathbb{R}^r , X \in \mathbb{R}^p , \alpha = \bar{X}$
-$Y = \alpha + \beta X + \mathcal{e}$
+- $Y \in \mathbb{R}^r , X \in \mathbb{R}^p , \alpha = \bar{X}$
+- $Y = \alpha + \beta X + \mathcal{e}$
+
