@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Multivariate Linear Model(1)"
+title: "Multivariate Linear Model and Response Envelope(1)"
 categories: Study
 tag: [paper, thesis]
 toc: true
@@ -30,9 +30,11 @@ Response Envelopes
 ```
 
 
-- $\mathbb{P}_\mathcal{E}$: projection onto $\mathcal{E}$
-- 
-- $\mathbb{Q}_\mathcal{E} = \mathbb{I}_\mathcal{r} - \mathbb{P}_\mathcal{E}$ # 이거 안됨
+- $\mathbb{P}_{\mathcal{E}}$: projection onto $\mathcal{E}$.
+- $\mathbb{Q}_{\mathcal{E}} = \mathbb{I}\_{\mathcal{r}} - \mathbb{P}\_{\mathcal{E}}$
+
+
+
 
 
 
