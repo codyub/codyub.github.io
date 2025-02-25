@@ -33,8 +33,30 @@ Response Envelopes
 - $\mathbb{P}_{\mathcal{E}}$: projection onto $\mathcal{E}$.
 - $\mathbb{Q}_{\mathcal{E}} = \mathbb{I}\_{\mathcal{r}} - \mathbb{P}\_{\mathcal{E}}$
 
+설명 넣기 
+
+Example
+---
+- $Y = \alpha + \beta X + \varepsilon$
+- $Y = (Y_1,Y_2)^T$ a multivariate regression with r = 2
+- $X \in {0,1}$ a single binary predictor
+- $\varepsilon\sim\mathcal{N}(0,\Sigma)$
+goal: How are the values of Y different when X is 0 and 1?
+
+# general approach 
+- Explore the distribution of Y in both cases(X=0, X=1)
+- weakness: projecting many points produces densities -> these densities could overlap, which means that it may take a large sample size to infer $\beta$ and it is difficult to analyze the effect of X
+
+# Envelope method
+- Envelope method finds meaningful direction by using eigenvector of \Sigma
+- In this paper, Envelope Subspace aligns with Principal Component, which means that the distribution would be clearly identified if we transform data based on important directions.
+- When the data is converted in the direction of Envelope Subspace (in this paper: diagonal), the two groups are clearly separated.
+- 결과적으로, Envelope 분석을 하면 회귀 분석에서 중요한 차원만 남기고, 불필요한 변동을 제거할 수 있음! = efficiency gain from an envelop analysis 
 
 
+Reference
+---
+R. Dennis Cook(2018) Principal Components, Sufficient Dimension Reduction, and Envelopes
 
 
 
