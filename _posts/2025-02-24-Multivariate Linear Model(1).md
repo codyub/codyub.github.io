@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Multivariate Linear Model and Response Envelope(1)"
+title: "Multivariate Linear Model and Response Envelope"
 categories: Study
 tag: [paper, thesis]
 toc: true
@@ -39,7 +39,9 @@ Envelope
 
 - $\mathbb{P}_{\mathcal{E}}$: projection onto $\mathcal{E}$.
 - $\mathbb{Q}_{\mathcal{E}} = \mathbb{I}\_{\mathcal{r}} - \mathbb{P}\_{\mathcal{E}}$
-- by intoducing the concept of envelope, low dimensional linear transform of Y become possible. 
+- by intoducing the concept of envelope, low dimensional linear transform of Y become possible.
+
+- 어떻게 가능해지는지 이론 추가 필요!
 
 Example
 ---
