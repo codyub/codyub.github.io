@@ -43,11 +43,13 @@ Example
 - $\varepsilon\sim\mathcal{N}(0,\Sigma)$
 goal: How are the values of Y different when X is 0 and 1?
 
-# general approach 
+general approach 
+---
 - Explore the distribution of Y in both cases(X=0, X=1)
 - weakness: projecting many points produces densities -> these densities could overlap, which means that it may take a large sample size to infer $\beta$ and it is difficult to analyze the effect of X
 
-# Envelope method
+Envelope method
+---
 - Envelope method finds meaningful direction by using eigenvector of \Sigma
 - In this paper, Envelope Subspace aligns with Principal Component, which means that the distribution would be clearly identified if we transform data based on important directions.
 - When the data is converted in the direction of Envelope Subspace (in this paper: diagonal), the two groups are clearly separated.
