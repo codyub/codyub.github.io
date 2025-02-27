@@ -20,7 +20,14 @@ ordinary least squares estimator of $\beta$ can be contructed by doing $\mathbb{
 
 Response Envelopes
 ===
+Background
+---
+- analyzing data with high dimensional y(response variable) and relatively low dimensional X(predictor) is often difficult
+- Thus, low dimensional linear transform of Y that describes the regression relationship would be helpful.
+- Most of dimension reduction methods have focused on reducing the dimension of X.
 
+Envelope
+---
 - the smallest subspace $\mathcal{E}$ of $\mathbb{R}^r$ with the properties that, for all relevant $\mathbb{x1}$ and $\mathbb{x2}$.
 ```math
 \mathbb{Q}_\mathcal{E} \mathcal{Y}|(\mathcal{X}=\mathcal{x1})\sim \mathbb{Q}_\mathcal{E} \mathcal{Y}|(\mathcal{X}=\mathcal{x2})
@@ -32,8 +39,7 @@ Response Envelopes
 
 - $\mathbb{P}_{\mathcal{E}}$: projection onto $\mathcal{E}$.
 - $\mathbb{Q}_{\mathcal{E}} = \mathbb{I}\_{\mathcal{r}} - \mathbb{P}\_{\mathcal{E}}$
-
-설명 넣기 
+- by intoducing the concept of envelope, low dimensional linear transform of Y become possible. 
 
 Example
 ---
