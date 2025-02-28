@@ -65,4 +65,7 @@ Reference
 R. Dennis Cook(2018) Principal Components, Sufficient Dimension Reduction, and Envelopes
 
 
-
+$local minimum$(띄어쓰기 적용 X)
+$local\,minimum$(띄어쓰기 한 번)
+$local\;minimum$(띄어쓰기 두 번)
+$local\quad minimum$(띄어쓰기 네 번)
