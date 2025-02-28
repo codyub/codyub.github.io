@@ -29,13 +29,9 @@ Background
 Envelope
 ---
 - the smallest subspace $\mathcal{E}$ of $\mathbb{R}^r$ with the properties that, for all relevant $\mathbb{x1}$ and $\mathbb{x2}$.
-```math
-\mathbb{Q}_\mathcal{E} \mathcal{Y}|(\mathcal{X}=\mathcal{x1})\sim \mathbb{Q}_\mathcal{E} \mathcal{Y}|(\mathcal{X}=\mathcal{x2})
-```
-```math
-\mathbb{P}_\mathcal{E} \mathcal{Y} \perp \mathbb{Q}_\mathcal{E} \mathcal{Y}|\mathcal{X}
-```
 
+$$\mathbb{Q}\_\mathcal{E} \mathcal{Y}|(\mathcal{X}=\mathcal{x1})\sim \mathbb{Q}\_\mathcal{E} \mathcal{Y}|(\mathcal{X}=\mathcal{x2})$$
+$$\mathbb{P}\_\mathcal{E} \mathcal{Y} \perp \mathbb{Q}_\mathcal{E} \mathcal{Y}|\mathcal{X}$$
 
 - $\mathbb{P}_{\mathcal{E}}$: projection onto $\mathcal{E}$.
 - $\mathbb{Q}_{\mathcal{E}} = \mathbb{I}\_{\mathcal{r}} - \mathbb{P}\_{\mathcal{E}}$
