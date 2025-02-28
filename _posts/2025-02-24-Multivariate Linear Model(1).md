@@ -23,7 +23,7 @@ Response Envelopes
 Background
 ---
 - analyzing data with high dimensional y(response variable) and relatively low dimensional X(predictor) is often difficult
-- Thus, low dimensional linear transform of Y that describes the regression relationship would be helpful.
+- Thus, low dimensional linear transform of Y that describes the regression relationship(=adequate dimension reduction) would facilitate the statistical analysis.
 - Most of dimension reduction methods have focused on reducing the dimension of X.
 
 Envelope
