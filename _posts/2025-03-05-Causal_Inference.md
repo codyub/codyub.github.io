@@ -115,7 +115,7 @@ Causation vs Association
 In real world: **half of counterfactuals are missing**. With the observed outcome Y(not potential outcome Y),  $P(Y=1|A=a)$ is the proportion of individuals that developed the outcome Y among those individuals in the population of interest that happened to receive treatment value a.
 - 일반적인 상황: 개개인의 수술 여부(A)와 그에 따른 사망/생존 결과(Y) 정도만 알 수 있음.
 - $P(Y=1|A=1) != P(Y=1|A=0)$ <=> A and Y are not independent. (<=> A and Y are associated)
-  - independent: $ P(Y \cap A) = P(A)P(Y) -> P(Y|A) = P(Y)$
+  - independent: $P(Y \cap A) = P(A)P(Y) -> P(Y|A) = P(Y)$
 - if $P(Y=1|A=1) = P(Y=1|A=0) = P(Y)$, independent
 
 chapter1
