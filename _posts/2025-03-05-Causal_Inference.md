@@ -98,9 +98,9 @@ Measures of causal effect
 We can represent the causal null by 
 **Causal risk difference**: $P(Y^{a=1}=1)-P(Y^{a=0}=1) = 0$ (no difference = no causality)
 
-**Causal risk ratio**: $P(Y^{a=1}=1)$/$P(Y^{a=0}=1) = 1$ (same = no causality)
+**Causal risk ratio**: $P(Y^{a=1}=1) \div P(Y^{a=0}=1)=1$ (same = no causality)
 
-**Causal odds ratio**: $P(Y^{a=1}=1)/P(Y^{a=1}=0)$ / $P(Y^{a=0}=1)/P(Y^{a=0}=0) = 1$ (same = no causality)
+**Causal odds ratio**: $P(Y^{a=1}=1)/P(Y^{a=1}=0) \div P(Y^{a=0}=1)/P(Y^{a=0}=0) = 1$ (same = no causality)
 
 
 Random variability
@@ -112,11 +112,11 @@ Nondeterministic counterfactuals: When individual’s counterfactual outcomes ar
 
 Causation vs Association
 ---
-In real world: **half of counterfactuals are missing**. With the observed outcome Y(not potential outcome Y),  $P(Y=1|A=a)$ is the proportion of individuals that developed the outcome Y among those individuals in the population of interest that happened to receive treatment value a.
-- 일반적인 상황: 개개인의 수술 여부(A)와 그에 따른 사망/생존 결과(Y) 정도만 알 수 있음.
-- $P(Y=1|A=1) != P(Y=1|A=0)$ <=> A and Y are not independent. (<=> A and Y are associated)
-  - independent: $P(Y \cap A) = P(A)P(Y) -> P(Y|A) = P(Y)$
-- if $P(Y=1|A=1) = P(Y=1|A=0) = P(Y)$, independent
+In real world: **half of counterfactuals are missing**. With the observed outcome Y(not potential outcome Y),  $P(Y=1 \mid A=a)$ is the proportion of individuals that developed the outcome Y among those individuals in the population of interest that happened to receive treatment value a.
+- 일반적인 상황: 개개인의 수술 여부(A)와 그에 따른 사망/생존 결과(Y) 정도만 알 수 있음.  
+- $P(Y=1 \midA=1)$ != $ P(Y=1 \midA=0)$ <=> A and Y are not independent. (<=> A and Y are associated)
+  - independent: $P(Y \cap A) = P(A)P(Y) -> P(Y \mid A) = P(Y)$
+- if $P(Y=1 \midA=1) = P(Y=1 \midA=0) = P(Y)$, independent
 
 chapter1
 ---
@@ -130,6 +130,6 @@ whereas inferences about association are concerned with questions in the actual 
 
 Textbook Reference
 ---
-Hernán MA, Robins JM (2020). Causal Inference: What If (pdf: https://miguelhernan.org/whatifbook)
+Hernán MA, Robins JM (2020). Causal Inference: What If (pdf: https://miguelhernan.org/whatifbook)   
 Imbens, Guido , Rubin, Donald B (2015). Causal Inference for Statistics, Social, and Biomedical Sciences
 Pearl, Judea (2009). Causality
